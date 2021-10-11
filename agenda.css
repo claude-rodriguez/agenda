@@ -1,0 +1,34 @@
+header{
+    background-color: blue;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Akronim', cursive;
+    font-size: 3em;
+}
+#header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none; /* supprime le souslignement */
+    color: black;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+a:focus /* Quand le visiteur sélectionne le lien */
+{
+    background-color: #FFCC66;
+}
+table{
+    font-family: 'Palanquin', sans-serif;
+    border-collapse: collapse;
+}
+td{
+    border: 1px solid black;
+    padding:10px;
+    color:
+}
