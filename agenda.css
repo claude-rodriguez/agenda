@@ -32,3 +32,24 @@ td{
     padding:10px;
     color:
 }
+#main {
+    /* display: flex;
+    flex-direction: column; */
+}
+#reservation{
+    display: flex;
+    justify-content: center;
+}
+/* #urgent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
+#table{
+    display: flex;
+    justify-content: center;
+}
+.urgent{
+    display: flex;
+    justify-content: center;
+}
