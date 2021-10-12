@@ -23,7 +23,7 @@
                 <div>
                     <nav id="header">
                         <a href="agenda.html">Accueil</a>
-                        <a href="formulaire.html">Formulaire</a>
+                        <a href="">Blog</a>
                         <a href="">Faq</a>
                     </nav>
                 </div>
@@ -31,8 +31,35 @@
 
         </header>
 
-        <main>
-            
+        <main id="main">
+            <h1 class="for1">FORMULAIRE</h1>
+            <form method="post" action="agenda.html">
+                <div class="fo">
+                    <label for="tit">titre:</label>
+                    <select required name="titre" id="tit">
+                        <option value="">--Choisissez une option--</option>
+                        <option value="travail">Travail</option>
+                        <option value="vie">Vie Privée</option>
+                    </select> 
+                </div>
+                <div class="fo">
+                    <label for="Cat">Catégorie:</label>
+                    <select required name="Catégorie" id="Cat">
+                        <option value="">--Choisissez une option--</option>
+                        <option  value="Travail">Repas de travail</option>
+                        <option  value="Famille">Repas de famille</option>
+                        <option  value="Normal">Normal</option>
+                    </select>
+                </div>
+               
+                <div class="fo">
+                    <label for="dat">Entrez une dâte:</label>
+                    <input type="date" id="dat">
+                </div>
+                <div class="fo">
+                    <input id="env" type="submit" value="Envoyer">
+                </div>
+            </form> 
 
         </main>
         <footer>
