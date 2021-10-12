@@ -1,11 +1,11 @@
 header{
-    background-color: blue;
+    background-color: rgb(0, 153, 255);
 }
 h1{
     display: flex;
     justify-content: center;
     font-family: 'Akronim', cursive;
-    font-size: 3em;
+    font-size: 4em;
 }
 #header{
     display: flex;
@@ -13,7 +13,7 @@ h1{
     justify-content: space-around;
 }
 a{
-    text-decoration: none; /* supprime le souslignement */
+    text-decoration: none; /* supprime le soulignement */
     color: black;
     font-family: 'Nunito Sans', sans-serif;
     font-size: 2em;
@@ -30,15 +30,21 @@ table{
 td{
     border: 1px solid black;
     padding:10px;
-    color:
+    width: 10em;
+    height: 6em;
 }
 #main {
-    /* display: flex;
-    flex-direction: column; */
+    background-color: lightblue;
+    /* background-repeat: no-repeat;
+    background-image: url(photo/Agendas.jpg) ;
+    background-size: cover; */
 }
 #reservation{
     display: flex;
     justify-content: center;
+}
+#mainreservation{
+    font-size: 31px;
 }
 /* #urgent{
     display: flex;
@@ -49,7 +55,53 @@ td{
     display: flex;
     justify-content: center;
 }
-.urgent{
+#urgent{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#travail{
+    font-size: 21px;
+    color: red;
+}
+.urgenttravail{
+    background-color: red;
+}
+#famille{
+    font-size: 21px;
+    color: yellow;
+}
+#urgentfamille{
+    background-color: yellow;
+}
+#normal{
+    font-size: 21px;
+    color: green;
+}
+.normal{
+    background-color: green;
+}
+footer{
+    background-color: rgb(0, 153, 255);
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+.none{
+    font-size: 31px;
+    list-style-type: none;
+}
+.logo{
+    width: 1em;
+    height: 1em;
+}
+.partenaire{
+    font-size: 21px;
+}
+#footertitre{
+    font-size: 31px;
+}
+.footerli{
+    font-size: 21px;
 }

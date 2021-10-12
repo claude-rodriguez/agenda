@@ -35,17 +35,17 @@
             <div id="main">
                 <div id="reservation">
                     <h2>
-                        Réservation Formulaire
+                        <a id="mainreservation" href="">Réservation Formulaire</a> 
                     </h2>
                 </div>
-                <div>
-                    <p class="urgent">
+                <div id="urgent">
+                    <p id="travail">
                         Travail Urgent = Red
                     </p>
-                    <p class="urgent" >
+                    <p id="famille" >
                         Famille Urgent = Yellow
                     </p>
-                    <p class="urgent">
+                    <p id="normal">
                         Normal = Green
                     </p>
                 </div>
@@ -59,7 +59,7 @@
                             <td>Mercredi 18</td>
                             <td>Jeudi 19</td>
                             <td>Vendredi 20</td>
-                            <td> Samedi 21</td>
+                            <td>Samedi 21</td>
                         </tr>
                         <tr>
                             <td>00h00-02h00</td>
@@ -72,7 +72,7 @@
                             <td></td>
                         </tr>
                         <tr>
-                            <td>03h00-04h00</td>
+                            <td>02h00-04h00</td>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -82,7 +82,7 @@
                             <td></td>
                         </tr>
                         <tr>
-                            <td>05h00-06h00</td>
+                            <td>04h00-06h00</td>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -92,7 +92,7 @@
                             <td></td>
                         </tr>
                         <tr>
-                            <td>07h00-08h00</td>
+                            <td>06h00-08h00</td>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -102,9 +102,49 @@
                             <td></td>
                         </tr>
                         <tr>
-                            <td>09h00-10h00</td>
+                            <td>08h00-10h00</td>
+                            <td></td>
+                            <td class="normal" >Formation</td>
+                            <td class="normal">Réunion</td>
                             <td></td>
                             <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>10h00-12h00</td>
+                            <td></td>
+                            <td class="normal">Formation</td>
+                            <td></td>
+                            <td class="normal">Audit</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>12h00-14h00</td>
+                            <td class="normal">Repas Martine</td>
+                            <td class="urgenttravail">RDV sté WW</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td class="urgenttravail">Repas Boss</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>14h00-16h00</td>
+                            <td></td>
+                            <td class="normal">Formation</td>
+                            <td></td>
+                            <td class="urgenttravail">RDV sté Basin</td>
+                            <td></td>
+                            <td class="normal">Réunion</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>16h00-18h00</td>
+                            <td></td>
+                            <td class="normal">Formation</td>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -112,57 +152,17 @@
                             <td></td>
                         </tr>
                         <tr>
-                            <td>11h00-12h00</td>
+                            <td>18h00-20h00</td>
                             <td></td>
                             <td></td>
                             <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>13h00-14h00</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
+                            <td id="urgentfamille">RDV Notaire</td>
                             <td></td>
                             <td></td>
                             <td></td>
                         </tr>
                         <tr>
-                            <td>15h00-16h00</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>17h00-18h00</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>19h00-20h00</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>21h00-22h00</td>
+                            <td>20h00-22h00</td>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -181,12 +181,54 @@
                             <td></td>
                             <td></td>
                         </tr>
-                    </table>
+                    </table> 
                 </div>
+                <br>
+                <br>
+
         </div>
 
         </main>
         <footer>
+            <nav>
+                <ul>
+                    <li class="none">
+                        Nos Partennaires
+                    </li>
+                    <li>
+                        <a class="footerli" href="">Papeterie Du Sud</a> 
+                    </li>
+                    <li>
+                        <a class="footerli" href="">Carrefour</a> 
+                    </li>
+                    <li>
+                        <a class="footerli" href="Proxam">Proxam</a> 
+                    </li>
+                </ul>
+                <ul>
+                    <li class="none"  >
+                        Réseau Social
+                    </li>
+                    <li>
+                        <a class="footerli" href=""><img class="logo" src="photo/Instagram.png" alt="Instagram"> Instagram</a>
+                    </li>
+                    <li>
+                        <a class="footerli" href=""><img class="logo" src="photo/linkedinlogo.png" alt="Linkedin"> Linkedin</a>
+                    </li>
+                    <li>
+                        <a class="footerli" href=""><img class="logo" src="photo/logofacebook.jpg" alt="Facebook"> Facebook</a>
+                    </li>
+                    <li>
+                        <a class="footerli" href=""><img class="logo" src="photo/twitter.png" alt="Twitter"> Twitter</a>
+                    </li>
+
+                </ul>
+                <ul>
+                    <li class="none">
+                        <a class="footerli" id="footertitre" href="">Mentions Légales</a>
+                    </li>
+                </ul>
+            </nav>
 
         </footer>
     </body>
